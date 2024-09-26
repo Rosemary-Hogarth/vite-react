@@ -1,13 +1,25 @@
 import './App.css'
+import Image from './Image'
+import Header from './Header'
+import ButtonSection from './ButtonSection'
+import MainContent from "./MainContent"
+import FooterSection from "./FooterSection"
 
-function App() {
-
+export default function App() {
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    < div className="container">
+      <Image />
+      <Header />
+      <ButtonSection />
+      <MainContent />
+      <FooterSection />
+    </div>
   )
 }
 
-export default App
+
+
+
+
+// footer
