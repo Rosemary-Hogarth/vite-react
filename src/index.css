@@ -5,7 +5,6 @@
 
 }
 
-
 body {
   margin: 0;
   display: flex;
@@ -16,8 +15,8 @@ body {
 }
 
 .portrait {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
 }
 
@@ -25,7 +24,7 @@ body {
   background-color: #F5F5F5;
   max-width: 317px;
   min-height: 399px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .header-name {
@@ -51,7 +50,7 @@ body {
 
 .email-btn {
   background-color: white;
-  padding: 5px 30px;
+  padding: 10px 30px;
   border-radius: 6px;
   border: 1px solid #D1D5DB;
   box-shadow: rgba(100, 100, 111, 0.1) 0px 4px 20px 0px;
@@ -59,12 +58,17 @@ body {
   font-weight: 400;
 }
 
+.email-icon, .linked-icon {
+  margin-right: 5px;
+}
+
 .linked-btn {
   background-color: #297FE5;
-  padding: 5px 30px;
+  padding: 10px 20px;
   color: white;
   border-radius: 6px;
   font-weight: 400;
+  border: none;
 }
 
 a {
@@ -83,7 +87,7 @@ a {
 
 .main-content-container {
   text-align: left;
-  margin: 0 35px 60px 35px;
+  margin: 0 35px 40px 35px;
 }
 
 .main-about, .main-interests {
@@ -101,8 +105,10 @@ a {
   background-color: #D5D4D8;
   height: 64px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  gap:24px;
+
 }
